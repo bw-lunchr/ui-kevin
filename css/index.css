@@ -305,6 +305,9 @@ template {
 }
 body {
   font-size: 62.5%;
+  background: #22c1c3;
+  background: linear-gradient(0deg, #22c1c3 0%, #fdbb2d 100%);
+  color: white;
 }
 .top_nav {
   display: flex;
