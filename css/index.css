@@ -436,12 +436,23 @@ body {
   border-radius: 9px;
   width: 25rem;
   margin: 3rem auto;
+  padding: 1rem;
 }
 .team-info div {
   display: flex;
   align-items: center;
   margin: 3rem;
-  border: 1px dashed white;
+  border: 1px solid blue;
+  border-radius: 9px;
+  padding: 1rem;
+}
+.team-info div img {
+  max-height: 300px;
+  border: 1px solid blue;
+  border-radius: 25px;
+}
+.team-info div h3 {
+  font-size: 2rem;
 }
 .lead h1 {
   font-size: 4rem;
@@ -460,4 +471,8 @@ body {
 }
 .team-member p {
   font-size: 1rem;
+}
+.team-member div {
+  display: flex;
+  flex-direction: column;
 }
