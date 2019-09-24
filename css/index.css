@@ -322,13 +322,13 @@ body {
   width: 100%;
   background-color: black;
   opacity: 100;
-  padding: 1rem;
 }
 .top_nav .logo {
   width: 20%;
   height: 2rem;
   display: flex;
   align-items: center;
+  padding-left: 1rem;
 }
 .top_nav .logo h1 {
   font-size: 2rem;
@@ -341,7 +341,6 @@ body {
   justify-content: flex-end;
 }
 .top_nav nav a {
-  border: 0.5px solid black;
   font-size: 1.2rem;
   width: 5.6rem;
   margin-left: 35px;
