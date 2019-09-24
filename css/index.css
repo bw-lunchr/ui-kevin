@@ -356,6 +356,13 @@ body {
   color: white;
   font-family: 'Vibes', cursive;
 }
+.top_nav nav a:hover {
+  color: black;
+  background-color: white;
+}
+.top_nav nav a:active {
+  background-color: gray;
+}
 @media (max-width:500px) {
   .top_nav {
     display: flex;
@@ -445,6 +452,12 @@ body {
   width: 50%;
   font-family: 'Big Shoulders Text', cursive;
 }
+@media (max-width:500px) {
+  .top_header h1 {
+    font-size: 4rem;
+    width: 100%;
+  }
+}
 .team-info div {
   display: flex;
   align-items: center;
@@ -460,8 +473,8 @@ body {
 }
 @media (max-width:500px) {
   .team-info div img {
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
   }
 }
 .lead h1,
