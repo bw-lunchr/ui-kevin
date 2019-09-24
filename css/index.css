@@ -305,9 +305,9 @@ template {
 }
 body {
   font-size: 62.5%;
-  background: #22c1c3;
-  background: linear-gradient(0deg, #22c1c3 0%, #fdbb2d 100%);
   color: white;
+  background-color: #140057;
+  background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
 }
 .page-wrapper {
   margin-top: 4.5rem;
@@ -444,10 +444,14 @@ body {
   margin: 3rem auto;
   padding: 1rem;
 }
+.top_header h1 {
+  font-size: 6rem;
+  width: 50%;
+}
 .team-info div {
   display: flex;
   align-items: center;
-  margin: 3rem;
+  margin: 1rem;
   border-radius: 9px;
   padding: 1rem;
 }
@@ -457,31 +461,20 @@ body {
   border: 1px solid blue;
   border-radius: 25px;
 }
-.team-info div h3 {
-  font-size: 2rem;
-}
-.lead h1 {
-  font-size: 4rem;
-  margin: 2rem;
-}
-.lead p {
-  font-size: 2rem;
-}
-.lead div {
-  display: flex;
-  flex-direction: column;
-}
-.top_header h1 {
-  font-size: 6rem;
-  width: 50%;
-}
+.lead h1,
 .team-member h1 {
   font-size: 3rem;
   margin: 2rem;
 }
-.team-member p {
-  font-size: 1rem;
+.lead h3,
+.team-member h3 {
+  font-size: 2rem;
 }
+.lead p,
+.team-member p {
+  font-size: 1.5rem;
+}
+.lead div,
 .team-member div {
   display: flex;
   flex-direction: column;
