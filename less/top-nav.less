@@ -20,6 +20,9 @@
             padding-top: .5rem;
             font-family: 'Vibes', cursive;
         }
+        @media @mobile {
+            margin-right: 1rem;
+        }
     }
     nav {
         display: flex;
@@ -32,6 +35,14 @@
             text-decoration: none;
             color: white;
             font-family: 'Vibes', cursive;
+        }
+    }
+    @media @mobile {
+        display: flex;
+        flex-direction: column;
+        height: 4.5rem;
+        div {
+            margin-bottom: 1rem;
         }
     }
 }
