@@ -466,8 +466,10 @@ body {
   padding: 1rem;
 }
 .team-info div img {
-  height: 300px;
-  width: 300px;
+  min-height: 300px;
+  min-width: 300px;
+  max-width: 300px;
+  max-height: 300px;
   border: 1px solid blue;
   border-radius: 25px;
 }
