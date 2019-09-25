@@ -334,7 +334,7 @@ body {
   font-size: 2rem;
   padding-left: 1rem;
   padding-top: 0.5rem;
-  font-family: 'Vibes', cursive;
+  font-family: "Vibes", cursive;
 }
 @media (max-width:500px) {
   .top_nav .logo {
@@ -354,7 +354,7 @@ body {
   border-radius: 8px;
   text-decoration: none;
   color: white;
-  font-family: 'Vibes', cursive;
+  font-family: "Big Shoulders Text", cursive;
 }
 .top_nav nav a:hover {
   color: black;
@@ -407,7 +407,7 @@ body {
 .top_info_box div {
   width: 100%;
   font-size: 2rem;
-  font-family: 'Bree Serif', serif;
+  font-family: "Bree Serif", serif;
   line-height: 1.5;
 }
 .top_info_box .button {
@@ -450,7 +450,7 @@ body {
 .top_header h1 {
   font-size: 6rem;
   width: 50%;
-  font-family: 'Big Shoulders Text', cursive;
+  font-family: "Big Shoulders Text", cursive;
 }
 @media (max-width:500px) {
   .top_header h1 {
@@ -490,17 +490,17 @@ body {
 .team-member h1 {
   font-size: 3rem;
   margin: 2rem;
-  font-family: 'Big Shoulders Text', cursive;
+  font-family: "Big Shoulders Text", cursive;
 }
 .lead h3,
 .team-member h3 {
   font-size: 2rem;
-  font-family: 'Big Shoulders Text', cursive;
+  font-family: "Big Shoulders Text", cursive;
 }
 .lead p,
 .team-member p {
   font-size: 1.5rem;
-  font-family: 'Bree Serif', serif;
+  font-family: "Bree Serif", serif;
   padding: 1rem;
   text-align: center;
 }

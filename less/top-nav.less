@@ -1,57 +1,57 @@
 .top_nav {
+  display: flex;
+  height: 3rem;
+  align-items: center;
+  border-bottom: 1px solid black;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: black;
+  opacity: 100;
+  .logo {
+    width: 20%;
+    height: 2rem;
     display: flex;
-    height: 3rem;
     align-items: center;
-    border-bottom: 1px solid black;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background-color: black;
-    opacity: 100;
-    .logo {
-        width: 20%;
-        height: 2rem;
-        display: flex;
-        align-items: center;
-        padding-left: 1rem;
-        h1 {
-            font-size: 2rem;
-            padding-left: 1rem;
-            padding-top: .5rem;
-            font-family: 'Vibes', cursive;
-        }
-        @media @mobile {
-            margin-right: 1rem;
-        }
-    }
-    nav {
-        display: flex;
-        width: 80%;
-        justify-content: flex-end;
-        a {
-            font-size: 1.2rem;                
-            width: 6rem;                
-            margin-left: 35px;
-            text-align: center;
-            border-radius: 8px;
-            text-decoration: none;
-            color: white;
-            font-family: 'Vibes', cursive;
-            &:hover {
-                color: black;
-                background-color: white;
-            }
-            &:active {
-                background-color: gray;
-            }
-        }
+    padding-left: 1rem;
+    h1 {
+      font-size: 2rem;
+      padding-left: 1rem;
+      padding-top: 0.5rem;
+      font-family: "Vibes", cursive;
     }
     @media @mobile {
-        display: flex;
-        flex-direction: column;
-        height: 4.5rem;
-        div {
-            margin-bottom: 1rem;
-        }
+      margin-right: 1rem;
     }
+  }
+  nav {
+    display: flex;
+    width: 80%;
+    justify-content: flex-end;
+    a {
+      font-size: 1.2rem;
+      width: 6rem;
+      margin-left: 35px;
+      text-align: center;
+      border-radius: 8px;
+      text-decoration: none;
+      color: white;
+      font-family: "Big Shoulders Text", cursive;
+      &:hover {
+        color: black;
+        background-color: white;
+      }
+      &:active {
+        background-color: gray;
+      }
+    }
+  }
+  @media @mobile {
+    display: flex;
+    flex-direction: column;
+    height: 4.5rem;
+    div {
+      margin-bottom: 1rem;
+    }
+  }
 }
