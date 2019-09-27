@@ -339,6 +339,7 @@ body {
 @media (max-width:500px) {
   .top_nav .logo {
     margin-right: 1rem;
+    padding-top: 1rem;
   }
 }
 .top_nav nav {
@@ -365,7 +366,8 @@ body {
   .top_nav {
     display: flex;
     flex-direction: column;
-    height: 6.5rem;
+    height: 7rem;
+    max-width: 100%;
   }
   .top_nav div {
     margin-bottom: 1rem;
